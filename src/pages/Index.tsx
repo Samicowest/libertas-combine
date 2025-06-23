@@ -1,10 +1,11 @@
 
 import React from 'react';
-import Navigation from '../components/Navigation';
-import HeroSection from '../components/HeroSection';
-import ServicesSection from '../components/ServicesSection';
+import Navigation from '../components/layout/Navigation';
+import Footer from '../components/layout/Footer';
+import HeroSection from '../components/sections/HeroSection';
+import ServicesSection from '../components/sections/ServicesSection';
 import AboutSection from '../components/AboutSection';
-import ResearchSection from '../components/ResearchSection';
+import ResearchSection from '../components/sections/ResearchSection';
 import VenturesSection from '../components/VenturesSection';
 import TeamSection from '../components/TeamSection';
 import FAQSection from '../components/FAQSection';
@@ -22,6 +23,7 @@ const Index = () => {
       <TeamSection />
       <FAQSection />
       <NewsletterSection />
+      <Footer />
     </div>
   );
 };
