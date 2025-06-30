@@ -1,3 +1,4 @@
+
 import React from "react";
 import Navigation from "../components/layout/Navigation";
 import Footer from "../components/layout/Footer";
@@ -12,6 +13,8 @@ import NewsletterSection from "../components/NewsletterSection";
 import Whatsaap from "@/utils/Whatsaap";
 
 const Index = () => {
+  console.log("Index component rendering...");
+  
   return (
     <div className="min-h-screen">
       <Navigation />
