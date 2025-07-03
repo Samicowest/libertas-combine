@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play } from "lucide-react";
@@ -85,6 +86,26 @@ const HeroSection = () => {
                   <p className="text-lg sm:text-xl lg:text-2xl text-gray-300 leading-relaxed max-w-2xl">
                     {slide.subtitle}
                   </p>
+                  
+                  {/* Call-to-action buttons */}
+                  <div className="flex flex-col sm:flex-row gap-4 pt-4">
+                    <Button 
+                      onClick={() => scrollToSection('services')}
+                      className="bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-2xl shadow-purple-500/25"
+                    >
+                      Get Started
+                      <ArrowRight className="ml-2 h-5 w-5" />
+                    </Button>
+                    
+                    <Button 
+                      variant="outline"
+                      onClick={() => scrollToSection('about')}
+                      className="border-2 border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 bg-transparent"
+                    >
+                      <Play className="mr-2 h-5 w-5" />
+                      Learn More
+                    </Button>
+                  </div>
                 </div>
 
                 <div
@@ -99,6 +120,10 @@ const HeroSection = () => {
                       src={slide.image}
                       alt="Team collaboration"
                       className="w-full h-auto rounded-xl shadow-2xl transition-transform duration-300 group-hover:scale-105"
+                      onError={(e) => {
+                        console.log(`Failed to load image: ${slide.image}`);
+                        e.currentTarget.src = "/lovable-uploads/44c536da-4c30-44bf-9ee4-27dda10c3dd0.png";
+                      }}
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-purple-900/30 to-transparent rounded-xl"></div>
                     <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-blue-600 rounded-xl blur opacity-30 group-hover:opacity-50 transition-opacity duration-300"></div>
