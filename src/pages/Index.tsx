@@ -3,12 +3,13 @@ import Navigation from "../components/layout/Navigation";
 import Footer from "../components/layout/Footer";
 import HeroSection from "../components/sections/HeroSection";
 import ServicesSection from "../components/sections/ServicesSection";
-import AboutSection from "../components/AboutSection";
 import ResearchSection from "../components/sections/ResearchSection";
-import VenturesSection from "../components/VenturesSection";
-import TeamSection from "../components/TeamSection";
-import FAQSection from "../components/FAQSection";
-import NewsletterSection from "../components/NewsletterSection";
+import AboutSection from "../components/sections/AboutSection";
+import FAQSection from "../components/sections/FAQSection";
+import TeamSection from "../components/sections/TeamSection";
+import NewsletterSection from "../components/sections/NewsletterSection";
+import VenturesSection from "../components/sections/VenturesSection";
+
 import Whatsaap from "@/utils/Whatsaap";
 
 const Index = () => {

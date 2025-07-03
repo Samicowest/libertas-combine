@@ -12,7 +12,7 @@ import Zyre from "/team/zyre.jpeg";
 import Samson from "/team/samson.jpeg";
 import Nduka from "/team/nduka.jpg";
 import Nwachukwu from "/team/nwachukwu.jpg";
-import Anozie from "/team/anozie.jpg";
+import Gabe from "/team/gabe.jpeg";
 
 interface dataType {
   image: string;
@@ -24,12 +24,12 @@ const teamMembers: dataType[] = [
   { image: Zyre, name: "Zyre", role: "Product Manager" },
   { image: Samson, name: "Ewuru Samson Uzoma", role: "Lead Web Developer" },
 
-  { image: Anozie, name: "Anozie Joel", role: "Chief Technology" },
   {
     image: Nwachukwu,
     name: "Nwachukwu Victor",
     role: "Chief Designer and Public Relations",
   },
+  { image: Gabe, name: "Jamike Gabeson", role: "Blocksquare Ambassador" },
   { image: Nduka, name: "Nduka Patience", role: "Language Translator" },
 ];
 const TeamSection = () => {
