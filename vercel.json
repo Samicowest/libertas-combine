@@ -1,6 +1,6 @@
 {
-  "buildCommand": "npm ci --include=optional && npm run build",
-  "installCommand": "npm ci --include=optional",
+  "buildCommand": "npm install && npm run build",
+  "installCommand": "npm install",
   "framework": "vite",
   "outputDirectory": "dist"
 }
