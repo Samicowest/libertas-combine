@@ -4,8 +4,8 @@
   "framework": "vite",
   "outputDirectory": "dist",
   "functions": {
-    "app/**": {
-      "runtime": "nodejs18.x"
+    "api/*.js": {
+      "runtime": "vercel-node@12.0.0"
     }
   }
 }
