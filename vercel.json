@@ -1,0 +1,11 @@
+{
+  "buildCommand": "npm ci --include=optional && npm run build",
+  "installCommand": "npm ci --include=optional",
+  "framework": "vite",
+  "outputDirectory": "dist",
+  "functions": {
+    "app/**": {
+      "runtime": "nodejs18.x"
+    }
+  }
+}
