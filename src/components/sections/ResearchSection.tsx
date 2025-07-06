@@ -59,7 +59,7 @@ const ResearchSection: React.FC<BlogProps> = ({ posts = postsBlog }) => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 lg:mb-6">
-          Latest Research Posts
+          Latest Publications
         </h2>
         <div className="w-24 h-1 bg-gradient-to-r from-yellow-400 to-orange-400 mx-auto rounded-full mb-6 lg:mb-8"></div>
         <p className="text-lg sm:text-xl text-purple-100 mb-8 sm:mb-12 max-w-3xl mx-auto">

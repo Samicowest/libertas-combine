@@ -23,18 +23,18 @@ export const ProofProgress = () => {
 
             <div className="space-y-4 text-lg text-gray-700">
               <p>
-                Blocksquare isn't just an idea; it's a thriving reality. With{" "}
+                Blocksquare isn't just an idea; it's a thriving reality. With
                 <span className="font-semibold text-cyan-600">
                   over 162 properties actively traded
                 </span>{" "}
-                on our marketplace, we're empowering a new generation of
-                investors.{" "}
+                on several partner marketplaces, Blocksquare is empowering a new
+                generation of investors
                 <span className="font-semibold text-cyan-600">
                   Hundreds of young people
                 </span>{" "}
-                have already become property owners, many even co-owning
-                university student rental accommodations – imagine the
-                possibilities right here in Owerri!
+                have already become property owners, profitable agents and many
+                even co-owning university student rental accommodations –
+                imagine the possibilities right here in your city.
               </p>
             </div>
           </div>

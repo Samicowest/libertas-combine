@@ -147,7 +147,7 @@ const MarketplaceAffiliate = () => {
           </h2>
           <Link
             to="/"
-            className="text-primary flex items-center text-sm font-medium hover:underline"
+            className="text-primaryMarketplace flex items-center text-sm font-medium hover:underline"
           >
             View All
             <svg
@@ -179,10 +179,17 @@ const MarketplaceAffiliate = () => {
                 <CardHeader>
                   <div className="flex justify-between items-start">
                     <div>
-                      <CardTitle className="text-lg">{program.title}</CardTitle>
+                      <CardTitle className="text-lg text-primaryMarketplace">
+                        {program.title}
+                      </CardTitle>
                       <CardDescription>{program.company}</CardDescription>
                     </div>
-                    <Badge variant="outline">{program.category}</Badge>
+                    <Badge
+                      variant="outline"
+                      className="text-primaryMarketplace"
+                    >
+                      {program.category}
+                    </Badge>
                   </div>
                 </CardHeader>
                 <CardContent className="space-y-4">

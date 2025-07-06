@@ -9,19 +9,28 @@ import {
 const FaqSection = () => {
   const faqs = [
     {
-      question: "Is this real? How do I know Blocksquare isn't a scam?",
+      question:
+        "Is tokenization as offered through Blocksquare, legally recognized in Nigeria?",
       answer:
-        "Blocksquare is a legitimate blockchain-based real estate platform with over 162 active properties. We're regulated, transparent, and backed by real technology. You can verify our properties, see actual ownership records on the blockchain, and start with small amounts to test the platform.",
+        "Blocksquare’s protocol and standards are legally compliant with global standards. In Nigeria, its adoption is being pioneered by regulatory compliant bodies such as Libertas Alpha Technologies who remain legally responsive to the Nigerian setting.",
     },
     {
-      question: "How much money do I need to start investing?",
+      question:
+        "What is the actual minimum amount needed to begin my Real Estate portfolio with Blocksquare?",
       answer:
-        "You can start investing with as little as ₦10,000 (about $12). Unlike traditional real estate that requires millions in down payments, Blocksquare lets you buy fractions of properties, making it accessible for students and young professionals.",
+        "Access to revenue rights has never been simpler. While the price of each property token listed on a marketplace may vary based on property valuation, $100 worth of assets can get you multiple different property tokens.",
     },
     {
-      question: "Is this legal in Nigeria? What about regulations?",
+      question:
+        "How exactly does the learn-to-earn campaign work? What are the Tangible benefits?",
       answer:
-        "Yes, digital asset ownership and blockchain-based investments are legal in Nigeria. We comply with all relevant financial regulations and work within the legal framework. However, as with any investment, we recommend doing your own research and consulting with financial advisors.",
+        "The campaign is built to educate and incentivize your Web3 Real Estate journey. It features simplified educational modules with guided content to improve your knowledge on the tokenization and opportunities in global borderless Real estate. You can directly earn tradeable Blocksquare ecosystem tokens, product discounts, advanced knowledge, certification and skillset. All while expanding your global network/reach.",
+    },
+    {
+      question:
+        "What are the key risks associated with investing in tokenized Real Estate, particularly in the Nigerian Context?",
+      answer:
+        "All forms of investment carry some sort of risk. With tokenized Real Estate on Global markets, the most concerning risk becomes regulatory uncertainty across different jurisdictions. This challenge can be mitigated through advocacy and policy redesigns. Market volatility may also emerge as a risk worth highlighting. The value of Real Estate even when tokenized is subject to broader economic fluctuations. Blockchain assisted smart contracts may also exhibit some form of technical risk but advanced audits are carried with progressive Blocksquare development. While these risks exist, we cannot afford to stand on the sidelines and watch the globe take a new face in Real Estate without us being co-architects.",
     },
   ];
 
@@ -33,9 +42,9 @@ const FaqSection = () => {
             Frequently Asked Questions
           </h2>
           <p className="text-center text-slate-600 mb-12 max-w-2xl mx-auto">
-            We know you have questions. Here are honest answers to the concerns
-            most FUTO students have about getting started with real estate
-            investment.
+            We know you have questions: here is a list of Questions most young
+            people in Nigeria have asked before getting started with
+            Blocksquare’s solutions:
           </p>
         </ScrollAnimationWrapper>
 
@@ -64,7 +73,7 @@ const FaqSection = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
-              href="#"
+              href="https://chat.whatsapp.com/KueXtGoIA8A2OFXhXRle5m"
               className="text-blocksquare-blue hover:text-blue-700 font-medium underline underline-offset-4 transition-colors"
             >
               Join Our WhatsApp Community

@@ -27,7 +27,7 @@ const teamMembers: dataType[] = [
   {
     image: Nwachukwu,
     name: "Nwachukwu Victor",
-    role: "Chief Designer and Public Relations",
+    role: "Lead Designer and Public Relations",
   },
   { image: Gabe, name: "Jamike Gabeson", role: "Blocksquare Ambassador" },
   { image: Nduka, name: "Nduka Patience", role: "Language Translator" },
@@ -51,7 +51,7 @@ const TeamSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="text-center mb-12 sm:mb-14">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
-            TEAM
+            CONTRIBUTORS
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-yellow-400 to-orange-400 mx-auto rounded-full mb-4"></div>
           <p className="text-lg sm:text-xl text-gray-300">

@@ -3,13 +3,13 @@ import { CheckCircle } from "lucide-react";
 import Img1 from "/aboutus.png";
 const AboutSection = () => {
   const features = [
-    "Analytical corporate media",
-    "Personnel management",
-    "Physical Development",
-    "Rapid financing and analytics",
-    "Security & Risk",
-    "Technology and data",
-    "Alternative programming solutions",
+    "Needs assessment",
+    "Reverse engineering",
+    "Systems design",
+    "Asset development",
+    "Personnel development",
+    "Innovation Diffusion and campaigns",
+    "Analytics and Extension",
   ];
 
   return (
@@ -32,10 +32,11 @@ const AboutSection = () => {
             </div>
 
             <p className="text-gray-600 leading-relaxed text-lg">
-              Our human ability are based on potential for engineering, human
-              resources, and analytics. Our agenda is to believe it requires a
-              social culture for risk management and technical compliance to
-              enable a social culture. We manage the ability of many companies.
+              At Libertas Alpha, we're driven by a passion for empowering
+              growth, innovation, and excellence. Our mission is to foster an
+              ecosystem that nurtures asset development, personnel growth, and
+              cutting-edge innovation, all while harnessing the power of data
+              analytics
             </p>
 
             <div className="space-y-3 lg:space-y-4">

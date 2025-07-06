@@ -30,15 +30,15 @@ const FinalCtaSection = () => {
           </h2>
 
           <div className="flex flex-col sm:flex-row gap-4 items-center justify-center mb-6">
-            <Button
-              onClick={handleCtaClick}
-              className="relative overflow-hidden text-blocksquare-blue bg-slate-200  hover:bg-slate-400  px-8 py-4 md:px-10 md:py-5 rounded-lg font-montserrat font-semibold text-lg md:text-xl transition-all duration-300 hover:shadow-xl hover:-translate-y-1 w-full sm:w-auto"
+            <a
+              href="https://marketplace.oceanpoint.fi/oceanpoint/auth/sign-up?referralCode=4684081497c715e0a69ef3447b34631f1aee50001b966c374528e468f50b4000"
+              className="relative overflow-hidden text-blocksquare-blue bg-slate-200  hover:bg-slate-400  px-4 py-2 md:px-6 md:py-3  rounded-lg font-montserrat font-semibold text-md md:text-lg transition-all duration-300 hover:shadow-xl hover:-translate-y-1 w-full sm:w-auto"
             >
               Explore Properties Now!
               {isClicked && (
                 <span className="absolute top-1/2 left-1/2 w-5 h-5 bg-white/30 rounded-full animate-ripple -translate-x-1/2 -translate-y-1/2"></span>
               )}
-            </Button>
+            </a>
 
             <LearnEarnButton />
           </div>

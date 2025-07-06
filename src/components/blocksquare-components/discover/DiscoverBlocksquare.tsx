@@ -3,25 +3,25 @@ import { BlocksquareServiceCard } from "./BlocksquareServiceCard";
 export const DiscoverBlocksquare = () => {
   const services = [
     {
-      title: "Own Fractions of Properties",
+      title: "Co-Own High End Real Estate",
       description:
-        "Real Estate investments have access to a wealth hub of resources that can help you make more informed decisions and resource allocation.",
+        "Fractional ownership is now a seamless reality. When you cannot afford to own the whole property, co-own the revenue with the same APY from the comfort of your phone, leveraging the transparency and immutability of blockchain technology.",
       image:
         "https://images.unsplash.com/photo-1560472355-536de3962603?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       icon: "🏠",
     },
     {
-      title: "List Your Properties",
+      title: "List Your Own Properties",
       description:
-        "Working with a real estate agency can give you peace of mind, knowing that you have a knowledgeable and experienced professional handling your property.",
+        "Working as a Real Estate Agency? You can now list your properties for an ocean of ready investors on international markets. Begin Directly with Blocksquare.",
       image:
         "https://images.unsplash.com/photo-1582407947304-fd86f028f716?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       icon: "📋",
     },
     {
-      title: "Co-own High-end Real Estate",
+      title: "Create Your Unique Marketplace",
       description:
-        "A real estate agency can save you time by handling the tedious and time-consuming tasks associated with buying or selling a property.",
+        "No sophisticated coding! Deploy your real estate business plan by launching your own private or public marketplace as a Blocksquare partner. Your Network will be ready to engage with your platform in a few weeks.",
       image:
         "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       icon: "🤝",
@@ -36,9 +36,10 @@ export const DiscoverBlocksquare = () => {
             Discover Blocksquare
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-            Welcome to Blocksquare – the global marketplace where property
-            ownership is redefined. Led by young entrepreneurs like you, we've
-            broken down traditional barriers. Now, you can:
+            Welcome to Blocksquare - Helping Individuals and Businesses to
+            redefine property ownership. Led by young entrepreneurs like you,
+            Blocksquare has broken down traditional barriers for you. Now you
+            can:-
           </p>
         </div>
 

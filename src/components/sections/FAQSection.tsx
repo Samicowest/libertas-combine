@@ -9,24 +9,47 @@ import {
 const FAQSection = () => {
   const faqs = [
     {
-      question: "How do Libertas provides Analytic support",
+      question: "Where is Libertas Alpha based?",
       answer:
-        " Libertas is a brand that is set with expert professional that are there to create and increase the asset of a business",
+        "Libertas Alpha is corporately registered in Nigeria but has a global web3 presence for borderless development.",
     },
     {
-      question: "Is Libertas Sustainable?",
+      question: "What is the purpose of Libertas Alpha?",
       answer:
-        "  Libertas is a sustainable company hereby ensure that all process of sustainability is not hampered which can lead to the growth fo a             company.",
+        "Our main purpose is to drive social impact through cutting edge technology. We aim to create a more equitable and sustainable world.",
     },
     {
-      question: " How do libertas go on with their Personnel development",
+      question: "How does Libertas Alpha measure social impact?",
       answer:
-        " Libertas is there by ensure and train staff to meet the requirement development to function more as a lucrative company, thereby to ensure that everything is run smoothly.",
+        "We measure social impact through the tangible, positive changes our projects bring to people’s lives and communities. This includes improvements in access to essential services, job creation and enhanced quality of life.",
     },
     {
-      question: "How dose libertas integrate Crypto",
+      question:
+        "What makes Libertas Alpha Technologies different from other other companies?",
       answer:
-        "Libertas integrate blockchain fo a smart and clear coodinatin of a business thereby enabling transparency.",
+        "We are unique because we combine advanced technology with a deep commitment to social good. Unlike traditional tech firms focused solely on profit, or non-profits limited by funding models, we build sustainable tech solutions that directly address social needs. Our decentralized model ensures shared risk and rewards.",
+    },
+    {
+      question: "How does Libertas ensure financial sustainability?",
+      answer:
+        "We achieve financial sustainability by developing innovative solutions which generate revenue. This revenue is not the end goal; it is systemized to accomplish our missions without waiting for 3rd party capital injections. This ensures systematic growth.",
+    },
+    {
+      question: "What type of organizations does Libertas Alpha Partner with?",
+      answer:
+        "We seek partners who share our commitment to social impact and innovation. This includes but not limited to: Cooperatives, local community groups, tech developers, research institutes, relevant LLCs, government agencies and impact investors. We believe in cross sector collaboration.",
+    },
+    {
+      question:
+        "How does Libertas Alpha involve local communities in projects? ",
+      answer:
+        "Community engagement is essential for social impact.  We empower locals and use participatory technology development for solution designs. We work hand in hand with local communities, involving them in solutions for the long term.",
+    },
+    {
+      question:
+        "What is Libertas Alpha Technologies’ Vision for the long term through Social Impact?",
+      answer:
+        "Our long term vision is to create a global ecosystem where technology is a direct force for sustainable development. This is true Freedom!",
     },
   ];
 
